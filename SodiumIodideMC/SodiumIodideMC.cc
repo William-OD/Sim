@@ -66,8 +66,8 @@ int main(int argc, char** argv)
 
     std::cout << "Visualization manager initialized." << std::endl;
 
-    // Initialise G4 kernel
-    runManager->Initialize();
+    // // Initialise G4 kernel
+    // runManager->Initialize();
 
     // Start UI session
     G4UIExecutive* ui = new G4UIExecutive(argc, argv);
